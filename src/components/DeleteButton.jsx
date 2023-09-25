@@ -6,7 +6,7 @@ function DeleteButton({ id, onDelete }) {
 }
 
 DeleteButton.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.number,
   onDelete: PropTypes.func,
 }
 
